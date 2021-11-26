@@ -5,11 +5,11 @@ Sometimes we are build a http service for file system by use the nginx. If in so
 
 
 For example , blow is my file list in my service 
-![image](img_1.png)
+![image](img_2.png)
 
 
 Then we just click the plugging button , the list page will turn to image view page . We just onle click the plugging button again , the page can back.
-![image](img_2.png)
+![image](img_1.png)
 
 # how to use 
 
