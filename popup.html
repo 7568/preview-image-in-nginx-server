@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="button.css">
+  </head>
+  <body>
+    <button id="changeColor"></button>
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="popup.js"></script>
+    <script type="text/javascript">
+      var importJs=document.createElement(‘script’) //在页面新建一个script标签
+      importJs.setAttribute(“type”,“text/javascript”) //给script标签增加type属性
+      importJs.setAttribute(“src”, ‘https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js’) //给script标签增加src属性， url地址为cdn公共库里的
+      document.getElementsByTagName(“head”)[0].appendChild(importJs)
+    </script>
+  </body>
+</html>
