@@ -27,7 +27,7 @@ function setPageBackgroundColor() {
       $('body pre').hide()
       imgs='<div id="preview_img">'
       $('body a:gt(0)').each(function(){
-        imgs += "<div style='padding: 1px;width : 360px;float: left;text-align: center;';><img src='"+$(this).attr('href')+"' style='padding: 1px;width :360px;height:240px';>"+$(this).text()+"</div>";
+        imgs += "<div style='padding: 1px;width : 360px;float: left;text-align: center;';><img src='"+$(this).attr('href')+"' style='padding: 1px;width :360px;';>"+$(this).text()+"</div>";
       })
       imgs +='</div>'
       $('body').append(imgs)
