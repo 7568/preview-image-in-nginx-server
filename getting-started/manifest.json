@@ -8,7 +8,7 @@
   },
   "content_scripts": [ 
         { 
-            "js": [ "jquery-1.9.1.min.js","jquery-ui.min.js" ],
+            "js": [ "jquery-1.9.1.min.js","jquery-ui.min.js","load-imgs.js" ],
              "matches": [ "http://*/*", "https://*/*"]
          }
      ], 
