@@ -12,7 +12,7 @@ function loadImages() {
       _imgs=''
       $('body a:gt(0)').slice(slide_img_num*scrollTimes,slide_img_num*scrollTimes+slide_img_num).each(function(){
        
-        _imgs += "<div style='padding: 1px;max-width:19%;text-align: center;';><img src='"+$(this).attr('href')+"' style='padding: 1px;max-width :"+(window_width/5.8)+"px;';><div style='width:100%'>"+$(this).text()+"</div></div>";
+        _imgs += "<div style='padding: 1px;max-width:19.88%;text-align: center;';><img src='"+$(this).attr('href')+"' style='padding: 1px;max-width :"+(window_width/5.3)+"px;';><div style='width:100%'>"+$(this).text()+"</div></div>";
       })
       
       scrollTimes+=1
@@ -35,7 +35,7 @@ function loadImages() {
           _imgs=''
           $('body a:gt(0)').slice(slide_img_num*scrollTimes,slide_img_num*scrollTimes+slide_img_num).each(function(){
 	        
-	        _imgs += "<div style='padding: 1px;max-width:19%;text-align: center;';><img src='"+$(this).attr('href')+"' style='padding: 1px;max-width :"+(window_width/5.8)+"px;';><div style='width:100%'>"+$(this).text()+"</div></div>";
+	        _imgs += "<div style='padding: 1px;max-width:19.88%;text-align: center;';><img src='"+$(this).attr('href')+"' style='padding: 1px;max-width :"+(window_width/5.3)+"px;';><div style='width:100%'>"+$(this).text()+"</div></div>";
 	      })
 	      scrollTimes+=1
           $('#preview_img').append(_imgs)
