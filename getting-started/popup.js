@@ -20,7 +20,7 @@ changeColor.addEventListener("click", async () => {
 
 function setPageBackgroundColor() {
   scrollTimes=0
-  slide_img_num=30
+  slide_img_num=100
   chrome.storage.sync.get("color", ({ color }) => {
     // document.body.style.backgroundColor = color;
     loadImages()
