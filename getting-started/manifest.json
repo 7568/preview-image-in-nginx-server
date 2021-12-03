@@ -10,6 +10,10 @@
         { 
             "js": [ "jquery-1.9.1.min.js","jquery-ui.min.js","load-imgs.js" ],
              "matches": [ "http://*/*", "https://*/*"]
+         },
+         { 
+            "css": [ "custom.css" ],
+             "matches": [ "http://*/*", "https://*/*"]
          }
      ], 
   "permissions": ["storage", "activeTab", "scripting"],
