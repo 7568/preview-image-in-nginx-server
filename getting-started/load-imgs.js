@@ -12,7 +12,7 @@ function loadImages() {
       _imgs=''
       $('body a:gt(0)').slice(slide_img_num*scrollTimes,slide_img_num*scrollTimes+slide_img_num).each(function(){
        
-        _imgs += "<div class='ui-state-default' ><img src='"+$(this).attr('href')+"' style='padding: 1px;background-color: red;max-width :"+(window_width/5.3)+"px;';><div style='width:100%'>"+$(this).text()+"</div></div>";
+        _imgs += "<div class='ui-state-default' ><img src='"+$(this).attr('href')+"' style='padding: 1px;background-color: red;max-width :"+(window_width/5.3)+"px;';><div style='max-width:100%;width: 100%;'>"+$(this).text()+"</div></div>";
       })
       
       scrollTimes+=1
@@ -35,7 +35,7 @@ function loadImages() {
           _imgs=''
           $('body a:gt(0)').slice(slide_img_num*scrollTimes,slide_img_num*scrollTimes+slide_img_num).each(function(){
 	        
-	        _imgs += "<div  class='ui-state-default' ><img src='"+$(this).attr('href')+"' style='padding: 1px;background-color: red;max-width :"+(window_width/5.3)+"px;';><div style='width:100%'>"+$(this).text()+"</div></div>";
+	        _imgs += "<div  class='ui-state-default' ><img src='"+$(this).attr('href')+"' style='padding: 1px;background-color: red;max-width :"+(window_width/5.3)+"px;';><div style='max-width:100%;width: 100%;'>"+$(this).text()+"</div></div>";
 	      })
 	      scrollTimes+=1
           $('#sortable').append(_imgs)
