@@ -1,4 +1,6 @@
 # preview-image-in-nginx-server
+or
+# The Preview of images in pages
 This is a chrome pluging. 
 
 Sometimes we are build a http service for file system by use the nginx. If in some folders only contain images, then we visit it in chrome browse, we just see a file list,but can not watch the image directely.So I write this chrome plugging.
